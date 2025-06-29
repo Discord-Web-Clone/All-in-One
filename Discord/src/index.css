@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #efeff0;
+}
+html,
+body {
+  font-family: Pretendard;
+  background-color: #121214;
+  width: 100%;
+  padding-top: 16px;
+  height: max(calc(var(--vh, 1vh) * 100 - 16px), 100%);
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+}
+
+:root {
+  --Blue-10: #5765f2;
+
+  --Surface-10: #29292d;
+  --Surface-20: #202024;
+  --Surface-30: #222327;
+  --Surface-40: #1a1a1e;
+  --Surface-50: #121214;
+
+  --Selected: #1d1d1e;
+
+  --Stroke-10: rgba(106, 106, 120, 0.15);
+
+  --Text-10: #efeff0;
+  --Text-20: #82838b;
+
+  --Icon-10: #aaaab1;
+  --Icon-20: #bfbfbf;
+
+  --ScrollBar-10: #666771;
+}
